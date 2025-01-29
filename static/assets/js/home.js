@@ -15,7 +15,7 @@ if (
   setTimeout(() => {
     if (!popup || popup.closed) {
       alert(
-        "Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.",
+        "kevin wade > patrick peterson this popup is needed for the site, dont ask why",
       );
     } else {
       const doc = popup.document;
@@ -23,7 +23,7 @@ if (
       const style = iframe.style;
       const link = doc.createElement("link");
 
-      const name = localStorage.getItem("name") || "My Drive - Google Drive";
+      const name = localStorage.getItem("name") || "Giggity Games";
       const icon =
         localStorage.getItem("icon") ||
         "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png";
@@ -47,7 +47,7 @@ if (
       const script = doc.createElement("script");
       script.textContent = `
       window.onbeforeunload = function (event) {
-        const confirmationMessage = 'Leave Site?';
+        const confirmationMessage = 'does thy really want to leave the skiggity games?';
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
@@ -174,16 +174,16 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "I like to skid games",
+  "made by Jax i think",
+  "Giggity gyatt?",
+  "Make sure to give 5 stars on skibidi toilet reviews",
+  "charles wade is rizztastic",
+  "Play CHIMPS! or suffer",
+  "hawk tuah, rizz on that thing",
+  "gyatt.",
+  "nice cock",
+  "nigger niggery nigger",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
